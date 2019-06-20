@@ -1,5 +1,5 @@
 ---
-title: Asobou
+title: Asobou !
 link: https://gothor.github.io/asobou-website
 thumbnail: /assets/img/portfolio/asobou.png
 technologies:
