@@ -1,0 +1,11 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .item {
+        width: calc(25% - 1.5em);
+        text-align: center;
+        margin: 0.5em;
+    }
+}

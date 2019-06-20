@@ -4,5 +4,7 @@
   url: /formation/
 - name: Expériences professionnelles
   url: /experiences/
+- name: Compétences
+  url: /competences/
 - name: Portfolio
   url: /portfolio/

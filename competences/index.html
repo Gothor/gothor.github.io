@@ -1,0 +1,19 @@
+---
+layout: base
+mainTitle: Compétences
+---
+
+{% for category in site.data.skills %}
+    <h2>{{ category[0] }}</h2>
+
+    <div class="skills">
+        {% assign skills = category[1] | sort %}
+        {% for item in skills %}
+            <div class="item">
+                {% capture thumbnailUrl %}/assets/img/skills/{{ item | downcase }}.png{% endcapture %}
+                <img src="{{ thumbnailUrl | downcase }}">
+                <div class="name">{{ item }}</div>
+            </div>
+        {% endfor %}
+    </div>
+{% endfor %}
