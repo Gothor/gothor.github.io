@@ -1,0 +1,49 @@
+#content.portfolio .item {
+
+  display: flex;
+  margin-bottom: 2em;
+
+  &:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
+
+  div {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0;
+
+    p {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+    }
+  }
+
+  .thumbnail {
+
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      width: 100%;
+      position: absolute;
+      top: -999999px;
+      bottom: -999999px;
+      left: -999999px;
+      right: -999999px;
+      margin: auto;
+      transition: all 0.2s linear;
+      filter: grayscale(1);
+
+      &:hover {
+          width: 105%;
+          filter: grayscale(0);
+      }
+    }
+  }
+
+  h2 a {
+    color: white;
+  }
+
+}

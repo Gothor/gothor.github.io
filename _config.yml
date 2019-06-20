@@ -1,0 +1,13 @@
+baseurl: /
+
+repository: Gothor/gothor.github.io
+
+timezone: Europe/Paris
+
+links:
+  facebook: https://www.facebook.com/rodolphe.peccatte
+  linkedin: https://www.linkedin.com/in/rodolphe-peccatte/
+  github:   https://github.com/Gothor
+
+collections:
+  portfolio: { output: true }

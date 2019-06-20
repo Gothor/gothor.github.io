@@ -1,0 +1,59 @@
+.portfolio .item {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 0;
+
+    img,
+    video {
+      width: 100%;
+      position: absolute;
+      top: -999999px;
+      bottom: -999999px;
+      left: -999999px;
+      right: -999999px;
+      margin: auto;
+      transition: all 0.2s linear;
+      filter: primaryscale(100%);
+    }
+
+    .name {
+      z-index: 100;
+      color: rgba(255, 255, 255, 0);
+      font-size: 2.3em;
+      text-align: center;
+      position: relative;
+      line-height: 400px;
+      display: block;
+      transition: all 0.2s linear;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0),
+        -1px -1px rgba(255, 255, 255, 0),
+        -1px 1px rgba(255, 255, 255, 0),
+        1px -1px rgba(255, 255, 255, 0),
+        1px 1px rgba(255, 255, 255, 0);
+    }
+
+    &:hover {
+      img {
+        width: 105%;
+        filter: primaryscale(0%);
+      }
+
+      .name {
+        font-size: 2.5em;
+        color: #f6861f;
+        text-shadow: 0 0 10px #555, -1px -1px #c3530c, -1px 1px #c3530c, 1px -1px #c3530c, 1px 1px #c3530c;
+      }
+    }
+
+    &.playing {
+      .name {
+        color: rgba(255, 255, 255, 0);
+        text-shadow: none;
+      }
+
+      video {
+        filter: primaryscale(0%);
+      }
+    }
+  }

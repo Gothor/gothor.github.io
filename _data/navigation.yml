@@ -1,0 +1,8 @@
+- name: Qui-suis-je ?
+  url: /
+- name: Formation
+  url: /formation/
+- name: Expériences professionnelles
+  url: /experiences/
+- name: Portfolio
+  url: /portfolio/
