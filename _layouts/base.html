@@ -25,11 +25,7 @@
         {% include header.html %}
 
         <div id="content" class="{{ page.class }}">
-            {% for item in site.data.navigation %}
-                {% if item.url == page.url %}
-                    <h1>{{ item.name }}</h1>
-                {% endif %}
-            {% endfor %}
+            <h1>{{ page.mainTitle }}</h1>
 
             {{ content }}
         </div>
