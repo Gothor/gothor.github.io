@@ -14,7 +14,7 @@ technologies:
 
 Asobou est un projet très personnel.
 
-"Asoubou" signifie "Jouons" en japonais. Il s'agit d'une chaîne Youtube sur laquelle nous diffusons des vidéos concernant la culture japonaise au travers du jeu de société.
+"Asobou" signifie "Jouons" en japonais. Il s'agit d'une chaîne Youtube sur laquelle nous diffusons des vidéos concernant la culture japonaise au travers du jeu de société.
 
 Pour cette chaîne, j'ai créé ou participé à la création de plusieurs éléments tels que :
 - le logo (participation)
